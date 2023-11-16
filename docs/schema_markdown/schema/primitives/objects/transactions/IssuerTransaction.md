@@ -4,7 +4,7 @@
 
 ### Primitive - Issuer Transaction
 
-`https://raw.githubusercontent.com/Open-Cap-Table-Coalition/Open-Cap-Format-OCF/main/schema/primitives/objects/transactions/IssuerTransaction.schema.json`
+`https://raw.githubusercontent.com/TenKeyLabs/Open-Cap-Format-OCF/main/schema/primitives/objects/transactions/IssuerTransaction.schema.json`
 
 **Description** _Abstract transaction object to be extended by all transaction objects that affect the issuer_
 

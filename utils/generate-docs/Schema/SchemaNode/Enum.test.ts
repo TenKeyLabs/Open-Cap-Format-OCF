@@ -2,7 +2,7 @@ import Schema from "../Schema.js";
 import Enum, { EnumSchemaNodeJson } from "./Enum.js";
 
 const SCHEMA_NODE_FIXTURE: EnumSchemaNodeJson = {
-  $id: "https://raw.githubusercontent.com/Open-Cap-Table-Coalition/Open-Cap-Format-OCF/main/schema/enums/TestEnum.schema.json",
+  $id: "https://raw.githubusercontent.com/TenKeyLabs/Open-Cap-Format-OCF/main/schema/enums/TestEnum.schema.json",
   title: "Test Title",
   description: "This is a test fixture exemplifying an Enum schema from OCF",
   type: "string",
@@ -33,7 +33,7 @@ describe("Enum", () => {
 
 ### Test Title
 
-\`https://raw.githubusercontent.com/Open-Cap-Table-Coalition/Open-Cap-Format-OCF/main/schema/enums/TestEnum.schema.json\`
+\`https://raw.githubusercontent.com/TenKeyLabs/Open-Cap-Format-OCF/main/schema/enums/TestEnum.schema.json\`
 
 **Description:** _This is a test fixture exemplifying an Enum schema from OCF_
 

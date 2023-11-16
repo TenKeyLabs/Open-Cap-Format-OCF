@@ -2,14 +2,14 @@ import Schema from "./Schema.js";
 import { FileSchemaNodeJson } from "./SchemaNode/File.js";
 
 const FILE_SCHEMA_JSON_FIXTURE: FileSchemaNodeJson = {
-  $id: "https://raw.githubusercontent.com/Open-Cap-Table-Coalition/Open-Cap-Format-OCF/main/schema/files/test_file",
+  $id: "https://raw.githubusercontent.com/TenKeyLabs/Open-Cap-Format-OCF/main/schema/files/test_file",
   title: "Test Title",
   description: "This is a test fixture exemplifying a File schema from OCF",
   type: "object",
   allOf: [{ $ref: "foo" }],
   properties: {
     items: {
-      $ref: "https://raw.githubusercontent.com/Open-Cap-Table-Coalition/Open-Cap-Format-OCF/main/schema/files/test_file",
+      $ref: "https://raw.githubusercontent.com/TenKeyLabs/Open-Cap-Format-OCF/main/schema/files/test_file",
     },
     file_type: { const: "OCF_TEST_FILE" },
   },
@@ -22,11 +22,11 @@ describe("Schema", () => {
       const schema = new Schema([FILE_SCHEMA_JSON_FIXTURE]);
 
       const actual = schema.findSchemaNodeById(
-        "https://raw.githubusercontent.com/Open-Cap-Table-Coalition/Open-Cap-Format-OCF/main/schema/files/test_file"
+        "https://raw.githubusercontent.com/TenKeyLabs/Open-Cap-Format-OCF/main/schema/files/test_file"
       );
 
       expect(actual?.id()).toEqual(
-        "https://raw.githubusercontent.com/Open-Cap-Table-Coalition/Open-Cap-Format-OCF/main/schema/files/test_file"
+        "https://raw.githubusercontent.com/TenKeyLabs/Open-Cap-Format-OCF/main/schema/files/test_file"
       );
     });
   });
@@ -38,7 +38,7 @@ describe("Schema", () => {
       const actual = schema.findSchemaNodeBySchemaRelativeId("files/test_file");
 
       expect(actual?.id()).toEqual(
-        "https://raw.githubusercontent.com/Open-Cap-Table-Coalition/Open-Cap-Format-OCF/main/schema/files/test_file"
+        "https://raw.githubusercontent.com/TenKeyLabs/Open-Cap-Format-OCF/main/schema/files/test_file"
       );
     });
   });

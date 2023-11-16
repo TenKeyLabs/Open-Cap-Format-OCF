@@ -4,7 +4,7 @@
 
 ### Enum - Email Type
 
-`https://raw.githubusercontent.com/Open-Cap-Table-Coalition/Open-Cap-Format-OCF/main/schema/enums/EmailType.schema.json`
+`https://raw.githubusercontent.com/TenKeyLabs/Open-Cap-Format-OCF/main/schema/enums/EmailType.schema.json`
 
 **Description:** _Enumeration of email types_
 

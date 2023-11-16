@@ -4,7 +4,7 @@
 
 ### Type - Vesting Condition Portion
 
-`https://raw.githubusercontent.com/Open-Cap-Table-Coalition/Open-Cap-Format-OCF/main/schema/types/vesting/VestingConditionPortion.schema.json`
+`https://raw.githubusercontent.com/TenKeyLabs/Open-Cap-Format-OCF/main/schema/types/vesting/VestingConditionPortion.schema.json`
 
 _Describes a fractional portion (ratio) of shares associated with a Vesting Condition_
 

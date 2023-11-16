@@ -2,7 +2,7 @@ import Schema from "../Schema.js";
 import TypeFormat, { TypeFormatSchemaNodeJson } from "./TypeFormat.js";
 
 const FIXTURE: TypeFormatSchemaNodeJson = {
-  $id: "https://raw.githubusercontent.com/Open-Cap-Table-Coalition/Open-Cap-Format-OCF/main/schema/types/TestTypeFormat.schema.json",
+  $id: "https://raw.githubusercontent.com/TenKeyLabs/Open-Cap-Format-OCF/main/schema/types/TestTypeFormat.schema.json",
   title: "Test Title",
   description:
     "This is a test fixture exemplifying an TypeFormat schema from OCF",
@@ -23,7 +23,7 @@ describe("TypeFormat", () => {
 
 ### Test Title
 
-\`https://raw.githubusercontent.com/Open-Cap-Table-Coalition/Open-Cap-Format-OCF/main/schema/types/TestTypeFormat.schema.json\`
+\`https://raw.githubusercontent.com/TenKeyLabs/Open-Cap-Format-OCF/main/schema/types/TestTypeFormat.schema.json\`
 
 **Description:** _This is a test fixture exemplifying an TypeFormat schema from OCF_
 

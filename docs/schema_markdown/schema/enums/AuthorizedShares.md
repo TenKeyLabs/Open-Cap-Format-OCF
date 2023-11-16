@@ -4,7 +4,7 @@
 
 ### Enum - Authorized Shares Types
 
-`https://raw.githubusercontent.com/Open-Cap-Table-Coalition/Open-Cap-Format-OCF/main/schema/enums/AuthorizedShares.schema.json`
+`https://raw.githubusercontent.com/TenKeyLabs/Open-Cap-Format-OCF/main/schema/enums/AuthorizedShares.schema.json`
 
 **Description:** _Enumeration of authorized shares types_
 

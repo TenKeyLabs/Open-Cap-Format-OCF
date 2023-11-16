@@ -4,7 +4,7 @@
 
 ### Type - Contact Info Without Name
 
-`https://raw.githubusercontent.com/Open-Cap-Table-Coalition/Open-Cap-Format-OCF/main/schema/types/ContactInfoWithoutName.schema.json`
+`https://raw.githubusercontent.com/TenKeyLabs/Open-Cap-Format-OCF/main/schema/types/ContactInfoWithoutName.schema.json`
 
 _Type representation of the contact info for an individual stakeholder_
 

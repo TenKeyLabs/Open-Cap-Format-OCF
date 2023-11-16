@@ -4,7 +4,7 @@ import { EnumSchemaNodeJson } from "./Enum.js";
 import { PrimitiveSchemaNodeJson } from "./Primitive.js";
 
 export const ENUM_OBJECT_TYPE_SCHEMA_NODE_FIXTURE: EnumSchemaNodeJson = {
-  $id: "https://raw.githubusercontent.com/Open-Cap-Table-Coalition/Open-Cap-Format-OCF/main/schema/enums/ObjectType.schema.json",
+  $id: "https://raw.githubusercontent.com/TenKeyLabs/Open-Cap-Format-OCF/main/schema/enums/ObjectType.schema.json",
   title: "Enum - Object Type",
   description: "Enumeration of object types",
   type: "string",
@@ -12,7 +12,7 @@ export const ENUM_OBJECT_TYPE_SCHEMA_NODE_FIXTURE: EnumSchemaNodeJson = {
 };
 
 export const ENUM_SCHEMA_NODE_FIXTURE: EnumSchemaNodeJson = {
-  $id: "https://raw.githubusercontent.com/Open-Cap-Table-Coalition/Open-Cap-Format-OCF/main/schema/enums/TestEnum.schema.json",
+  $id: "https://raw.githubusercontent.com/TenKeyLabs/Open-Cap-Format-OCF/main/schema/enums/TestEnum.schema.json",
   title: "Test Title",
   description: "This is a test fixture exemplifying an Enum schema from OCF",
   type: "string",
@@ -20,7 +20,7 @@ export const ENUM_SCHEMA_NODE_FIXTURE: EnumSchemaNodeJson = {
 };
 
 export const BASE_OBJECT_SCHEMA_NODE_FIXTURE: PrimitiveSchemaNodeJson = {
-  $id: "https://raw.githubusercontent.com/Open-Cap-Table-Coalition/Open-Cap-Format-OCF/main/schema/primitives/objects/Object.schema.json",
+  $id: "https://raw.githubusercontent.com/TenKeyLabs/Open-Cap-Format-OCF/main/schema/primitives/objects/Object.schema.json",
   title: "Object - Object",
   description: "Abstract object to be extended by all other objects",
   type: "object",
@@ -39,20 +39,20 @@ export const BASE_OBJECT_SCHEMA_NODE_FIXTURE: PrimitiveSchemaNodeJson = {
     },
     object_type: {
       description: "Object type field",
-      $ref: "https://raw.githubusercontent.com/Open-Cap-Table-Coalition/Open-Cap-Format-OCF/main/schema/enums/ObjectType.schema.json",
+      $ref: "https://raw.githubusercontent.com/TenKeyLabs/Open-Cap-Format-OCF/main/schema/enums/ObjectType.schema.json",
     },
   },
   required: ["id", "object_type"],
 };
 
 export const OBJECT_SCHEMA_NODE_FIXTURE: ObjectSchemaNodeJson = {
-  $id: "https://raw.githubusercontent.com/Open-Cap-Table-Coalition/Open-Cap-Format-OCF/main/schema/objects/Valuation",
+  $id: "https://raw.githubusercontent.com/TenKeyLabs/Open-Cap-Format-OCF/main/schema/objects/Valuation",
   title: "Object - Valuation",
   description: "Object describing a valuation used in the cap table",
   type: "object",
   allOf: [
     {
-      $ref: "https://raw.githubusercontent.com/Open-Cap-Table-Coalition/Open-Cap-Format-OCF/main/schema/primitives/objects/Object.schema.json",
+      $ref: "https://raw.githubusercontent.com/TenKeyLabs/Open-Cap-Format-OCF/main/schema/primitives/objects/Object.schema.json",
     },
   ],
   properties: {
@@ -60,7 +60,7 @@ export const OBJECT_SCHEMA_NODE_FIXTURE: ObjectSchemaNodeJson = {
       const: "VALUATION",
     },
     refProperty1: {
-      $ref: "https://raw.githubusercontent.com/Open-Cap-Table-Coalition/Open-Cap-Format-OCF/main/schema/enums/TestEnum.schema.json",
+      $ref: "https://raw.githubusercontent.com/TenKeyLabs/Open-Cap-Format-OCF/main/schema/enums/TestEnum.schema.json",
     },
   },
   additionalProperties: false,
@@ -89,7 +89,7 @@ describe("Object", () => {
 
 ### Object - Valuation
 
-\`https://raw.githubusercontent.com/Open-Cap-Table-Coalition/Open-Cap-Format-OCF/main/schema/objects/Valuation\`
+\`https://raw.githubusercontent.com/TenKeyLabs/Open-Cap-Format-OCF/main/schema/objects/Valuation\`
 
 **Description:** _Object describing a valuation used in the cap table_
 

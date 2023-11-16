@@ -4,7 +4,7 @@
 
 ### Conversion Mechanism - Share-Price-Based Conversion Mechanism
 
-`https://raw.githubusercontent.com/Open-Cap-Table-Coalition/Open-Cap-Format-OCF/main/schema/types/conversion_mechanisms/SharePriceBasedConversionMechanism.schema.json`
+`https://raw.githubusercontent.com/TenKeyLabs/Open-Cap-Format-OCF/main/schema/types/conversion_mechanisms/SharePriceBasedConversionMechanism.schema.json`
 
 _Sets forth inputs and conversion mechanism based on price per share of a future round (with potential discounts)_
 

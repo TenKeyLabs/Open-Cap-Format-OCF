@@ -11,13 +11,13 @@ import {
 
 const BACKWARDS_COMPATIBLE_OBJECT_SCHEMA_NODE_FIXTURE: BackwardsCompatibleObjectSchemaNodeJson =
   {
-    $id: "https://raw.githubusercontent.com/Open-Cap-Table-Coalition/Open-Cap-Format-OCF/main/schema/objects/BackwardsCompatibleValuation",
+    $id: "https://raw.githubusercontent.com/TenKeyLabs/Open-Cap-Format-OCF/main/schema/objects/BackwardsCompatibleValuation",
     title: "Backwards Compatible Object - Valuation",
     description:
       "Backwards compatible object describing a valuation used in the cap table",
     allOf: [
       {
-        $ref: "https://raw.githubusercontent.com/Open-Cap-Table-Coalition/Open-Cap-Format-OCF/main/schema/objects/Valuation",
+        $ref: "https://raw.githubusercontent.com/TenKeyLabs/Open-Cap-Format-OCF/main/schema/objects/Valuation",
       },
     ],
     properties: {
@@ -50,14 +50,14 @@ describe("BackwardsCompatibleObjectSchemaNode", () => {
 
 ### Backwards Compatible Object - Valuation
 
-\`https://raw.githubusercontent.com/Open-Cap-Table-Coalition/Open-Cap-Format-OCF/main/schema/objects/BackwardsCompatibleValuation\`
+\`https://raw.githubusercontent.com/TenKeyLabs/Open-Cap-Format-OCF/main/schema/objects/BackwardsCompatibleValuation\`
 
   **Description:** _Backwards compatible object describing a valuation used in the cap table_
-  
+
   **Data Type:** \`OCF Object - BACKWARDS_COMPATIBLE_VALUATION\`
-  
+
   **Compatiblity Wrapper For:** [schema/objects/Valuation](./Valuation.md)
-  
+
   **Source Code:** [schema/objects/BackwardsCompatibleValuation](../../../../schema/objects/BackwardsCompatibleValuation.schema.json)
 
 Copyright © ${copyright_year} Open Cap Table Coalition.

@@ -4,7 +4,7 @@
 
 ### Type - Capitalization Definition Rules
 
-`https://raw.githubusercontent.com/Open-Cap-Table-Coalition/Open-Cap-Format-OCF/main/schema/types/CapitalizationDefinitionRules.schema.json`
+`https://raw.githubusercontent.com/TenKeyLabs/Open-Cap-Format-OCF/main/schema/types/CapitalizationDefinitionRules.schema.json`
 
 _Type represents the rules for determining the capitalization definition for a security_
 
